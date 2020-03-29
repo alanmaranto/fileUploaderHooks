@@ -1,5 +1,5 @@
 import React from "react";
-import FileUpload from "./components/FileUpload";
+import FileUpload from "./containers/FileUploadContainer";
 import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faReact } from "@fortawesome/free-brands-svg-icons";
