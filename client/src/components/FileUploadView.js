@@ -1,9 +1,11 @@
 import React from "react";
 import Message from "../components/Message";
+import Progress from './Progress';
 
 const FileUploadView = ({
   message,
   filename,
+  uploadPercentage,
   uploadedFile,
   onSubmit,
   onChange
@@ -23,6 +25,7 @@ const FileUploadView = ({
             {filename}
           </label>
         </div>
+        <Progress percentage={uploadPercentage} />
         <input
           type="submit"
           value="Upload"
